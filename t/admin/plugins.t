@@ -111,7 +111,6 @@ limit-conn
 limit-count
 limit-req
 gzip
-server-info
 traffic-split
 redirect
 response-rewrite
@@ -124,6 +123,7 @@ http-dubbo
 public-api
 prometheus
 datadog
+lago
 loki-logger
 elasticsearch-logger
 echo
